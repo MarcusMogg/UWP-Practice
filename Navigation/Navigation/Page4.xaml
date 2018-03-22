@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Navigation.Page4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Navigation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Orientation="Vertical">
+        <TextBlock FontSize="36" HorizontalAlignment="Center"> Page4</TextBlock>
+
+        <HyperlinkButton NavigateUri="https://marcusmogg.github.io/">
+            参考
+        </HyperlinkButton>
+    </StackPanel>
+</Page>
