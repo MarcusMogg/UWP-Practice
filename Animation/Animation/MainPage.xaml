@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="Animation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Animation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Frame Name="MyFrame"></Frame>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Name="ConnectedAnimationButton" 
+                    Margin="10,0,10,10" 
+                    Click="ConnectedAnimationButton_OnClick">简单的连贯动画</Button>
+            <Button Name="ListConnectedAnimationButton" 
+                    Margin="10,0,10,10" 
+                    Click="ListConnectedAnimationButton_OnClick">列表中动画</Button>
+        </StackPanel>
+    </Grid>
+</Page>
